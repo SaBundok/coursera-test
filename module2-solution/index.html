@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<!--stylesheet line here-->
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: sans-serif;
+			align-content: center;
+		}
+		
+		h1 {
+			text-align: center;
+			padding-top: 30px;
+		}
+
+		section{
+			align-content: center;
+		}
+
+
+		h2{
+			font-size: 15px;
+			border:1px solid black;
+			text-align: center;
+			margin:auto;
+			width:25%;
+			height:30px;
+			line-height:30px;
+			align-content: right;
+		}
+
+		.chicken{
+			background-color:#EDAEC0;
+			position:relative;
+			top:46px;
+			left:32.5%;
+		}
+
+		.beef{
+			background-color:#A4636C;
+			position:relative;
+			top:46px;
+			left:32.5%;
+		}
+
+		.sushi{
+			background-color:#FFFFE0;
+			position:relative;
+			top:46px;
+			left:32.5%;
+		}
+
+		p{
+			border: 1px solid black;
+  			background-color: #808080;
+  			width: 90%;
+  			margin-right: auto;
+ 			margin-left: auto;
+  			font-family: Helvetica;
+  			color: white;
+
+  			padding:10px;
+  			padding-top:40px;
+		}
+
+		.row {
+			width: 100%;
+			align-content: center;
+		}
+
+		/*Desktop*/
+		@media (min-width:992px){
+ 			.col-dk-1, .col-dk-2, .col-dk-3, .col-dk-4, .col-dk-5, .col-dk-6, .col-dk-7, .col-dk-8, .col-dk-9, .col-dk-10, .col-dk-11, .col-dk-12 {
+				    float: left;
+				  }
+				  .col-dk-1 {
+				    width: 8.33%;
+				  }
+				  .col-dk-2 {
+				    width: 16.66%;
+				  }
+				  .col-dk-3 {
+				    width: 25%;
+				  }
+				  .col-dk-4 {
+				    width: 33.33%;
+				  }
+				  .col-dk-5 {
+				    width: 41.66%;
+				  }
+				  .col-dk-6 {
+				    width: 50%;
+				  }
+				  .col-dk-7 {
+				    width: 58.33%;
+				  }
+				  .col-dk-8 {
+				    width: 66.66%;
+				  }
+				  .col-dk-9 {
+				    width: 74.99%;
+				  }
+				  .col-dk-10 {
+				    width: 83.33%;
+				  }
+				  .col-dk-11 {
+				    width: 91.66%;
+				  }
+				  .col-dk-12 {
+				    width: 100%;
+				  }
+		}
+
+		/*Tablet*/
+		@media (min-width: 768px) and (max-width:991px){
+			.col-tb-1, .col-tb-2, .col-tb-3, .col-tb-4, .col-tb-5, .col-tb-6, .col-tb-7, .col-tb-8, .col-tb-9, .col-tb-10, .col-tb-11, .col-tb-12 {
+				    float: left;
+				   
+				  }
+				  .col-tb-1 {
+				    width: 8.33%;
+				  }
+				  .col-tb-2 {
+				    width: 16.66%;
+				  }
+				  .col-tb-3 {
+				    width: 25%;
+				  }
+				  .col-tb-4 {
+				    width: 33.33%;
+				  }
+				  .col-tb-5 {
+				    width: 41.66%;
+				  }
+				  .col-tb-6 {
+				    width: 50%;
+				  }
+				  .col-tb-7 {
+				    width: 58.33%;
+				  }
+				  .col-tb-8 {
+				    width: 66.66%;
+				  }
+				  .col-tb-9 {
+				    width: 74.99%;
+				  }
+				  .col-tb-10 {
+				    width: 83.33%;
+				  }
+				  .col-tb-11 {
+				    width: 91.66%;
+				  }
+				  .col-tb-12 {
+				    width: 100%;
+				  }
+
+		}
+
+		/*Mobile*/
+		@media (max-width:767px){
+			.col-mob-1, .col-mob-2, .col-mob-3, .col-mob-4, .col-mob-5, .col-mob-6, .col-mob-7, .col-mob-8, .col-mob-9, .col-mob-10, .col-mob-11, .col-mob-12 {
+				    float: left;
+				  }
+				  .col-mob-1 {
+				    width: 8.33%;
+				  }
+				  .col-mob-2 {
+				    width: 16.66%;
+				  }
+				  .col-mob-3 {
+				    width: 25%;
+				  }
+				  .col-mob-4 {
+				    width: 33.33%;
+				  }
+				  .col-mob-5 {
+				    width: 41.66%;
+				  }
+				  .col-mob-6 {
+				    width: 50%;
+				  }
+				  .col-mob-7 {
+				    width: 58.33%;
+				  }
+				  .col-mob-8 {
+				    width: 66.66%;
+				  }
+				  .col-mob-9 {
+				    width: 74.99%;
+				  }
+				  .col-mob-10 {
+				    width: 83.33%;
+				  }
+				  .col-mob-11 {
+				    width: 91.66%;
+				  }
+				  .col-mob-12 {
+				    width: 100%;
+				  }
+		}
+	</style>
+	<body>
+		<h1>Our Menu</h1>
+		<div class="row">
+			<section class="col-dk-4 col-tb-6 col-mob-12">
+				<h2 class="chicken">Chicken</h2>
+				<p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</section>
+
+			<section class="col-dk-4 col-tb-6 col-mob-12">
+				<h2 class="beef">Beef</h2>
+				<p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</section>
+
+			<section class="col-dk-4 col-tb-6 col-mob-12">
+				<h2 class="sushi">Sushi</h2>
+				<p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</section>
+		</div>
+	</body>
+</head>
+</html>
+
+
+
+<!--lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.-->
