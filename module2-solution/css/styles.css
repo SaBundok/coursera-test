@@ -12,6 +12,7 @@
 		h1 {
 			text-align: center;
 			padding-top: 30px;
+			padding-bottom:30px;
 		}
 
 		section{
@@ -29,7 +30,7 @@
 			line-height:30px;
 
 			position:relative;
-			top:46px;
+			top:30px;
 			left:32.5%;
 		}
 
