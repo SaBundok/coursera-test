@@ -15,9 +15,10 @@
 			padding-bottom:30px;
 		}
 
-		#container {
-			position:relative;
+		section{
+			align-content: center;
 		}
+
 
 		h2{
 			font-size: 15px;
@@ -40,7 +41,7 @@
   			margin-right: auto;
  			margin-left: auto;
   			font-family: Helvetica;
-  			font-size:12px;
+			font-size:14px;
   			color: white;
 
   			padding:10px;
